@@ -1,0 +1,42 @@
+
+#gris{
+background-color: rgb(196, 194, 194);
+height: auto;
+width: auto;
+display: inline-block;
+}
+#verde{
+background-color: green;
+height: 90px;
+width: 545px;
+margin: 10px;
+display: block;
+}
+#azul{
+background-color: blue;
+display: inline-block;
+vertical-align: top;
+margin-left: 10px;
+height: 170px;
+width: 100px;
+}
+.amarillo{
+height: 120px;
+width: 120px;
+background-color: yellow;
+display: inline-block;
+margin: 10px;
+}
+#rojo{
+background-color: red;
+height: auto;
+width: auto;
+display: inline-block;
+margin: 0px 10px 10px 10px;
+}
+#morado{
+background-color: purple;
+height: 80px;
+width:  410px;
+margin: 0px 10px 40px 10px;
+}

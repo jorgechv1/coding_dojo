@@ -1,0 +1,169 @@
+.container{
+    height: 990px;
+    width: 1060px;
+    background-image: linear-gradient( whitesmoke,rgb(255, 255, 255),whitesmoke);
+    font-family: Arial;
+    color: rgb(53, 53, 53);
+}
+.header img{
+    height: 100px;
+    width: 100px;
+    margin-top: -30px;
+    margin-left: -50px;
+    position: absolute;
+    
+}
+.header h1{
+    display: inline-block;
+    font-size: 45px;
+    margin-left: 50px;
+}
+.header h2{
+    background-image: linear-gradient( rgb(42,106,160), rgb(90, 143, 185), rgb(42,106,160));
+    color: white;
+    font-size: 23px;
+    padding: 10px;
+    margin-top: -20px;
+}
+#hspan{
+    color: rgb(42,106,160);
+}
+.lateral_1{
+    width: 250px;
+    height: 190px;
+    display: inline-block;
+    vertical-align: top;
+}
+#rojo{
+    color: red;
+}
+.lateral_1 span{
+    color: rgb(90, 143, 185);
+
+}
+.boton1{
+    background-image: linear-gradient( rgb(42,106,160), rgb(90, 143, 185), rgb(42,106,160)) ;
+    color: rgb(173, 166, 166);
+    border-radius: 5px;
+    height: 35px;
+    width: 210px;
+    margin-left: 20px;
+    padding: 10px;
+    cursor: pointer;
+}
+.boton2{
+    background-image: linear-gradient( rgb(236, 131, 32), rgb(226, 150, 78), rgb(236, 131, 32)) ;
+    color: rgb(165, 165, 165);
+    border-radius: 4px;
+    height: 35px;
+    width: 210px;
+    margin-left: 20px;
+    margin-top: 2px;
+    cursor: pointer;
+
+}
+.lateral_2{
+    color: white;
+    font-size: 27px;
+    text-align: center;
+    background-image: url(images/ad_background.png); 
+    width: 250px;
+    height: 400px;
+}
+.lateral_2 img{
+    height: 150px;
+    width: 100px;
+    margin: -30px 30px 0px 25px;
+}
+.lateral_2 button{
+    background-image: linear-gradient( rgb(89, 214, 236), rgb(88, 184, 201), rgb(89, 214, 236)) ;
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    height: 35px;
+    width: 210px;
+    margin-left: 0px;
+    cursor: pointer;
+}
+.contenido{
+    height: 600px;
+    width: 770px;
+    display: inline-block;
+    margin-left: 25px;
+}
+.contenido strong{
+    display: inline-block;
+    color: rgb(42,106,160);
+    
+}
+.casa{
+    height: 20px;
+    width: 20px;
+    display: inline-block;
+    vertical-align: top;
+}
+.contenido strong{
+    vertical-align: top;
+}
+.serverclient{
+    height: 105px;
+    width: 280px;
+    margin-left: 210px;
+}
+.contenido h3{
+    color: rgb(42,106,160);
+}
+.contenido span{
+    color: rgb(0, 225, 255);
+}
+.numero{
+    height: 1px;
+    width: 230px;
+    display: inline-block;
+    margin-left: 475px;
+    margin-top: -30px;
+}
+.numero p{
+    display: inline-block;
+    font-size: 14px;
+  
+}
+.numero strong{
+    display: inline-block;
+    font-size: 30px;
+    
+
+}
+.phone{
+    height: 40px;
+    width: 40px;
+}
+.footer{
+    border: 5px solid rgb(40, 132, 207);
+    height: 150px;
+    width: 740px;
+    display: inline-block;
+    margin: 30px 0px 0px 270px;
+}
+.footer img{
+    height: 110px;
+    width: 110px;
+    margin: 10px 0px 0px 10px;
+}
+.footer h3{
+    display: inline-block;
+    vertical-align: top;
+    color: rgb(42,106,160);
+}
+.footer p{
+vertical-align: top;
+display: inline-block;
+}
+.footer a{
+text-decoration: none;
+color: rgb(42,106,160);
+    
+}
+.footer p{
+    margin-left: 130px;
+    margin-top: -70px;
+}

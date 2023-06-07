@@ -1,0 +1,75 @@
+#contenedor{
+    background-color: rgb(53, 53, 85);
+    height: auto;
+    width: auto;
+    display: block; 
+    padding: 10px;
+    margin: 0px auto;
+
+}
+h1{
+    color: rgb(203, 205, 207);
+    padding: 15px;
+    font-size: 50px;
+}
+h3{
+    font-size: 50px;
+    color: rgb(203, 205, 207);
+}
+p{
+    color: rgb(203, 205, 207);
+    font-size: 27px;
+    text-align: justify;
+}
+strong{
+    color: rgb(125, 104, 202);
+}
+#lista{
+    color: rgb(203, 205, 207);
+    font-size: 27px;
+    text-align: justify;
+}
+#header{
+    background-color: red;
+    border-radius: 10px;
+    display: block;
+    
+}
+#menu{
+    background-color: rgb(67, 144, 158);
+    padding: 10px;
+    display: inline-block;
+    border-radius: 20px;
+    height: auto;
+    width: auto;
+    margin-right: 14px;
+    font-size: 20px;
+    vertical-align: top;
+    
+    
+}
+.redireccion{
+    color: aqua;
+}
+#cuerpo{
+    background-color:rgb(27, 27, 44);
+    border-radius: 20px;
+    display: inline-block;
+    height: auto;
+    width: auto;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+#footer{
+    background-color: gray;
+    border-radius: 30px;
+    padding: 1px;
+    margin-top: 8px;
+   
+}
+#pfooter{
+    font-size: 20px;
+    margin-left: 5px;
+
+}
+
