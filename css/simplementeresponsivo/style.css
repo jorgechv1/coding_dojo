@@ -1,0 +1,52 @@
+.phone.tablet.desktop {
+    display: none; 
+}
+
+@media only screen and (max-width: 480px) {
+    .phone {
+        display: inline; 
+    }
+    .tablet {
+        display: none; 
+    }
+    .desktop {
+        display: none; 
+    }
+}
+@media only screen and (min-width: 481px) {
+    .tablet {
+        display: inline; 
+    }
+    .phone {
+        display: none; 
+    }
+    .desktop {
+        display: none; 
+    }
+}
+@media only screen and (min-width: 1024px) {
+    .desktop {
+        display: inline; 
+    }
+    .phone {
+        display: none; 
+    }
+    .tablet {
+        display: none; 
+    }
+}
+.header{
+    background-color: rgb(179, 179, 179);
+    border: 1px solid rgb(122, 122, 122);
+}
+.texto{
+    background-color: rgb(224, 224, 224);
+    border: 1px solid rgb(122, 122, 122);
+    margin: 8px 0px 8px 0px;
+}
+.footer{
+    background-color: rgb(255, 255, 140);
+    border: 1px solid rgb(122, 122, 122);
+}
+
+
