@@ -1,0 +1,94 @@
+.verde{
+    background-color: green;
+    height: 150px;
+    width: 1024px;
+    margin-bottom: 20px;
+}
+.azul{
+    background-color: blue;
+    height: 280px;
+    width: 200px;
+    vertical-align: top;
+    margin-right: 10px;
+}
+.rojo{
+    background-color: red;
+    
+    
+}
+.amarillo1{
+    background-color: yellow;
+    width: 220px;
+    height: 230px;
+    margin: 20px;
+}
+.amarillo2{
+    background-color: yellow;
+    width: 220px;
+    height: 230px;
+    margin: 20px;
+}
+.amarillo3{
+    background-color: yellow;
+    width: 220px;
+    height: 230px;
+    margin: 20px;
+}
+.morado{
+    background-color: purple;
+    height: 130px;
+    width: 230px;
+    margin: 0px 20px 20px 20px;
+}
+
+@media only screen and (max-width: 480px) {
+    .azul{
+        display: none;
+    }
+    .verde{
+        width: auto;
+    }
+}
+@media only screen and (min-width: 481px)  and (max-width: 1023px){
+    .azul{
+        display: none;
+    }
+    .amarillo1{
+        display: inline-block;
+    }
+    .amarillo2{
+        display: inline-block;
+    }
+    .amarillo3{
+        display: block;
+    }
+    .morado{
+        width: auto;
+    }
+    
+
+}
+@media only screen and (min-width: 1024px) {
+    .amarillo1{
+        display: inline-block;
+
+    }
+    .amarillo2{
+        display: inline-block;
+
+    }
+    .amarillo3{
+        display: inline-block;
+
+    }
+    .azul{
+        display: inline-block;
+    }
+    .rojo{
+        display: inline-block;
+    } 
+    .morado{
+        width: 750px;
+    }
+}
+
